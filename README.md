@@ -14,8 +14,10 @@ pip install -r requirements.txt
 ### Current ideas/benchmarks
 
 - [ ] Implementing a face scanner that can detect the face
-- [ ] Convert digital measurements to physical measurements, using a reference object with known dimensions
-- [ ] Prompt user to be 15 cm away from camera (for eg)
+- [ ] Perform camera calibration calculations that can be applied on multiple devices
+- [ ] Do this by Prompt user to be 20 cm away from camera on initialisation
   - https://www.youtube.com/watch?v=jsoe1M2AjFk
 
-![camera to measurements](docs/Distance-Measurement.png)
+![camera to measurements](resources/Distance-Measurement.png)
+
+- Use the eye distance as a reference maybe? Always between 63-65mm in humans
