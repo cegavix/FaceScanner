@@ -1,0 +1,4 @@
+# Ignore all ide files
+*.iml
+.idea
+.DS_Store
