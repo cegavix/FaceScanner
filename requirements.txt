@@ -1,4 +1,0 @@
-cvzone~=1.5.4
-opencv-python~=4.9.0.80
-mediapipe~=0.9.3.0
-
