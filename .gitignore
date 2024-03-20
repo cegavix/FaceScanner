@@ -1,5 +1,8 @@
-# Ignore all ide files
-*.iml
+# Ignore all ide/os files
 .idea
 .DS_Store
-venv
+*/.DS_Store
+
+# Ignore virtual environment
+BackEnd/venv
+resources/myface_50cm.jpg
