@@ -18,6 +18,14 @@ pip install -r requirements.txt
 - [ ] Do this by Prompt user to be 20 cm away from camera on initialisation
   - https://www.youtube.com/watch?v=jsoe1M2AjFk
 
+![face mesh numbers](resources/face_mesh_numbers.jpg)
+- The main points of interest are the bridge of the nose and the top of the chin
 ![camera to measurements](resources/Distance-Measurement.png)
+- The pixel distance between these two points will be used to calculate the physical distance
 
-- Use the eye distance as a reference maybe? Always between 63-65mm in humans
+### Backend Results
+
+![perfect backend](resources/perfect_backend.png)
+### Credits
+
+Camera calibration code: https://learnopencv.com/camera-calibration-using-opencv/
